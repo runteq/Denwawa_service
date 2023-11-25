@@ -1,4 +1,4 @@
-# Denwawa_service
+# WebApp_service
 # [Railsコードメモ]
 
 ## サービス概要
