@@ -1,4 +1,3 @@
-# Denwawa_service
 # [Railsコードメモ]
 
 ## サービス概要
@@ -37,3 +36,87 @@
 * カレンダー機能（作成日時）
 * 検索機能
 * ロボらんてくんのようなチャットサービス
+
+## 以下メモアプリの具体的な機能　##
+
+### メモの主な機能の流れ：
+* まずメモアプリを開いた時に以下のどちらかのカテゴライズを選択する
+  ・カテゴライズ
+  ＊主に2つに分けて保存（とりあえず大まかなカテゴライズなのでアドバイスがあれば追加）
+  エラー用または保存用
+* カテゴライズの選択が終わった後でメモの記入欄が表示される
+* 記入し送信ボタンを押すと、メモ一覧にメモが投稿される
+   ※メモは日付毎にまとめて掲載する
+
+### メモの構成内容：
+
+* 日付欄　（デフォルトで今日の日付が入るようにする）
+* カテゴライズ欄
+* カテゴライズでエラーを選んだ場合は、カテゴライズの後にどんな種類のエラーなのかをタイトル記入欄を追加する。
+* タイトル欄（エラーを選ばなかった場合）
+* ファイル名欄（選択肢の欄でフォルダ名の記載など）
+* コード欄
+* 備考欄（タイトル以外で何か記載したい時の欄）
+* 文章を追加ボタン
+（※検索機能はメモ投稿一覧のところに設置など）
+
+### エラー用(カテゴライズ)
+（エラーを選んだ場合、タイトルを記入する際に選択肢で選べる。選ばなかった場合は自分で記載）
+* Name Error
+* No Method Error
+* Template is missing
+* LoadError
+* Actioncontroller::UnknownFormat
+* ArgumentError
+* Syntax errorなど
+
+例：カテゴライズ欄：　エラー
+　　エラー名：　No Method Error
+	ファイル名：　app/controllers/(ここから自分の作成したファイル名）
+　　　コード： def event_params
+              params.require(:event).permit(:title, :content, :held_at, :prefecture_id, :thumbnail, :followed_id)
+              end
+    備考欄：　paramsが値を受け取れない（何も記載することがなければ空欄など）
+
+## ここにロボらんてくんのようなチャットサービスを追加し、エラーが起きている原因をチャットで聞くことができるようにする。
+
+### 保存用(カテゴライズ)
+
+例：カテゴライズ欄：　保存用
+	タイトル名：　前のコードと比較（用途などを記載する）
+	ファイル名：　app/controllers/(ここから自分の作成したファイル名を記入)_controller.rb　　　
+	コード： def event_params
+            params.require(:event).permit(:title, :content, :held_at, :prefecture_id, :thumbnail, :followed_id)
+          end
+      備考欄：　（何も記載することがなければ空欄など）
+
+### タイトル記入の選択機能
+
+* 選択肢機能：フォルダ
+（以下はメモでタイトルを記入する際に選択肢で選べる。選ばなかった場合は自分で記載）
+
+* app/
+* app/assets/
+* app/controllers/_controller.rb
+* app/models/.rb
+* app/view/.html
+* app/helper/
+* bin/
+* config/
+* config/routes.rb
+* config/locales/ja.yml
+* db/
+* db/migrate/.rb
+* lib/
+* log/
+* public/
+* spec/
+* storage/
+* tmp/
+* vendor/
+* .browserslistrc
+* .gitattributes
+* .gitignore
+* Gemfile
+* Rakefile
+* Read.me
