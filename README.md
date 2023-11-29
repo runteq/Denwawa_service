@@ -134,3 +134,6 @@ rubyではなくrailsなのはファイル数やファイル名など複数あ�
 * Gemfile
 * Rakefile
 * Read.me
+
+### 画面遷移図
+https://www.figma.com/file/udCxen2U09uuFFj4CNkgAJ/%E7%84%A1%E9%A1%8C?type=design&node-id=0%3A1&mode=design&t=L17MCm7OtVuamRVb-1
