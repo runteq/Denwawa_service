@@ -136,4 +136,20 @@ rubyではなくrailsなのはファイル数やファイル名など複数あ�
 * Read.me
 
 ### 画面遷移図
-https://www.figma.com/file/udCxen2U09uuFFj4CNkgAJ/%E7%84%A1%E9%A1%8C?type=design&node-id=0%3A1&mode=design&t=KMHaqRAl0ejl15CX-1
+Figma：https://www.figma.com/file/udCxen2U09uuFFj4CNkgAJ/%E7%84%A1%E9%A1%8C?type=design&node-id=0%3A1&mode=design&t=KMHaqRAl0ejl15CX-1
+### READMEに記載した機能
+- [ ] トップページ
+- [ ] メモ新規投稿機能
+- [ ] メモ編集機能
+- [ ] メモ削除機能
+- [ ] メモ閲覧機能
+- [ ] カテゴライズ機能
+- [ ] 選択（チェックボックスなど）機能
+- [ ] ソート機能（投稿は基本的に作成日時順に並べる）
+- [ ] マルチ検索機能
+- [ ] チャットサービス機能(現時点だと技術力がないため作成可能であれば）
+- [ ] キーとバックグラウンド処理機能
+
+### 未ログインでも閲覧or利用できるページ
+以下の項目はちゃんと未ログインでも閲覧or利用できる画面遷移になっているか？
+- [ ] ログイン機能を付けないためみログインで全て閲覧可能
