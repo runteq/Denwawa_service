@@ -136,7 +136,7 @@ rubyではなくrailsなのはファイル数やファイル名など複数あ�
 * Read.me
 
 ### 画面遷移図
-Figma：https://www.figma.com/file/udCxen2U09uuFFj4CNkgAJ/%E7%84%A1%E9%A1%8C?type=design&node-id=0%3A1&mode=design&t=aGfNFWToWuw6k0s0-1
+Figma：https://www.figma.com/file/udCxen2U09uuFFj4CNkgAJ/%E7%84%A1%E9%A1%8C?type=design&node-id=0%3A1&mode=design&t=6J6WCMitAO08iU3B-1
 ### READMEに記載した機能
 - [ ] トップページ
 - [ ] メモ新規投稿機能
