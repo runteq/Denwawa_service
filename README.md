@@ -136,7 +136,7 @@ rubyではなくrailsなのはファイル数やファイル名など複数あ�
 * Read.me
 
 ### 画面遷移図
-Figma：https://www.figma.com/file/udCxen2U09uuFFj4CNkgAJ/%E7%84%A1%E9%A1%8C?type=design&node-id=0%3A1&mode=design&t=wQctvdl24WRyjFHH-1
+Figma：https://www.figma.com/file/udCxen2U09uuFFj4CNkgAJ/%E7%84%A1%E9%A1%8C?type=design&node-id=0%3A1&mode=design&t=1sD2upAdrS2gplve-1
 ### READMEに記載した機能
 - [ ] トップページ
 - [ ] メモ新規投稿機能
@@ -152,4 +152,7 @@ Figma：https://www.figma.com/file/udCxen2U09uuFFj4CNkgAJ/%E7%84%A1%E9%A1%8C?typ
 
 ### 未ログインでも閲覧or利用できるページ
 以下の項目はちゃんと未ログインでも閲覧or利用できる画面遷移になっているか？
-- [ ] ログイン機能を付けないためみログインで全て閲覧可能
+- [ ] ログイン機能を付けないためログインで全て閲覧可能
+
+### ER図
+[![Image from Gyazo](https://i.gyazo.com/c00a827dafe220f582e627d1c95338d5.png)](https://gyazo.com/c00a827dafe220f582e627d1c95338d5)
