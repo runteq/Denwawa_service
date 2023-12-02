@@ -153,3 +153,6 @@ Figma：https://www.figma.com/file/udCxen2U09uuFFj4CNkgAJ/%E7%84%A1%E9%A1%8C?typ
 ### 未ログインでも閲覧or利用できるページ
 以下の項目はちゃんと未ログインでも閲覧or利用できる画面遷移になっているか？
 - [ ] ログイン機能を付けないためみログインで全て閲覧可能
+
+### ER図
+[![Image from Gyazo](https://i.gyazo.com/ff6760d50e7f14ff627ab295c61221dc.png)](https://gyazo.com/ff6760d50e7f14ff627ab295c61221dc)
